@@ -11,7 +11,7 @@ Archivos del ejercicio
 - [01. Análisis](01.Analisis.md)  
 - [02. Algoritmo](02.Algoritmo.md)  
 - [03. Flujograma](03.Flujograma.md)
-- 
+- [04.Pseudocodigo - PSeInt.md](04.Pseudocodigo - PSeInt.md)
 - [05. Prueba de Escritorio](05.PruebaEscritorio.md)
 
 Recursos adicionales
