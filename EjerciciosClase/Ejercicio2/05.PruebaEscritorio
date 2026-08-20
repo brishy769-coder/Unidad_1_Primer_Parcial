@@ -1,0 +1,51 @@
+Primero haremos para que el estado salga "APROBADO";
+Supongamos que el usuario ingresa:
+
+Calificación 1: 8
+
+Calificación 2: 6
+
+Calificación 3: 7
+
+
+| Paso | Acción | Variables principales |
+| --- | --- | --- |
+| 1 | Leer cal1 | cal1 = 8 |
+| 2 | Leer cal2 | cal2 = 6 |
+| 3 | Leer cal3 | cal3 = 7 |
+| 4 | Calcular promedio | promedio = (8+6+7)/3 = 7 |
+| 5 | Evaluar condición | promedio = 7 → estado = "APROBADO" |
+| 6 | Mostrar resultados | Cal1=8, Cal2=6, Cal3=7, Promedio=7, Estado=APROBADO |
+
+//Salida esperada
+Calificación 1: 8
+Calificación 2: 6
+Calificación 3: 7
+Promedio: 7
+Estado final: APROBADO
+
+Ahora hacemos para que el estado salga "REPROBADO";
+
+Supongamos que el usuario ingresa:
+
+Calificación 1: 5
+
+Calificación 2: 6
+
+Calificación 3: 4
+
+| Paso | Acción | Variables principales |
+| --- | --- | --- |
+| 1 | Leer cal1 | cal1 = 5 |
+| 2 | Leer cal2 | cal2 = 6 |
+| 3 | Leer cal3 | cal3 = 4 |
+| 4 | Calcular promedio | promedio = (5+6+4)/3 = 5 |
+| 5 | Evaluar condición | promedio = 5 → estado = "REPROBADO" |
+| 6 | Mostrar resultados | Cal1=5, Cal2=6, Cal3=4, Promedio=5, Estado=REPROBADO |
+
+//Salida esperada
+Calificación 1: 5
+Calificación 2: 6
+Calificación 3: 4
+Promedio: 5
+Estado final: REPROBADO
