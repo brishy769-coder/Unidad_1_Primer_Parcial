@@ -1,0 +1,24 @@
+Supongamos que el usuario ingresa:
+
+Nombre: Ana
+
+Edad: 20
+
+Nota1: 15
+
+Nota2: 18
+
+Nota3: 12
+
+| Paso | Acción | Variables |
+|------|--------|-----------|
+| 1 | Leer nombre | nombre = "Ana" |
+| 2 | Leer edad | edad = 20 |
+| 3 | Leer nota1 | nota1 = 15 |
+| 4 | Leer nota2 | nota2 = 18 |
+| 5 | Leer nota3 | nota3 = 12 |
+| 6 | Calcular promedio | promedio = 15 |
+| 7 | Convertir edad a binario | edadBinario = 10100 |
+| 8 | Convertir edad a hexadecimal | edadHexadecimal = 14 |
+| 9 | Mostrar resultados
+|   | Nombre: Ana, Edad: 20, Binario: 10100, Hex: 14, Promedio: 15 |
