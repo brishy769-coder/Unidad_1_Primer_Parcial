@@ -1,1 +1,28 @@
+Inicio 
 
+Leer la primera calificación → cal1 
+
+Leer la segunda calificación → cal2 
+
+Leer la tercera calificación → cal3 
+
+Calcular el promedio: 
+promedio = (cal1+ cal2 + cal3)/3
+ 
+Si promedio >= 7 entonces 
+
+Mostrar Estado← "APROBADO" Sino 
+
+Mostar Estado← "REPROBADO" 
+
+Mostrar "Calificación 1: ", cal1 
+
+Mostrar "Calificación 2: ", cal2 
+
+Mostrar "Calificación 3: ", cal3 
+
+Mostrar "Promedio: ", promedio 
+
+Mostrar "Estado final: ", estado 
+
+Fin 
