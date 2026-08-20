@@ -1,0 +1,38 @@
+package ape01;
+import java.util.Scanner;
+
+public class RegistroEstudiante {
+    public static void main(String[]args) {
+        Scanner entrada = new Scanner(System.in);
+        // Paso 1: Entrada de datos
+        System.out.print("Ingrese su nombre: ");
+        String nombre = entrada.nextLine();
+
+        System.out.print("Ingrese su edad: ");
+        int edad = entrada.nextInt();
+
+        System.out.print("Ingrese la primera nota: ");
+        double nota1 = entrada.nextDouble();
+
+        System.out.print("Ingrese la segunda nota: ");
+        double nota2 = entrada.nextDouble();
+
+        System.out.print("Ingrese la tercera nota: ");
+        double nota3 = entrada.nextDouble();
+
+        // Paso 2: Procesamiento
+        double promedio = (nota1 + nota2 + nota3) / 3;
+
+        String edadBinario = Integer.toBinaryString(edad);   // convierte a binario
+        String edadHexadecimal = Integer.toHexString(edad);  // convierte a hexadecimal
+
+        // Paso 3: Salida
+        System.out.println("\n--- Resultados ---");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad (Decimal): " + edad);
+        System.out.println("Edad (Binario): " + edadBinario);
+        System.out.println("Edad (Hexadecimal): " + edadHexadecimal);
+        System.out.println("Promedio de notas: " + promedio);
+    }
+}   
+
