@@ -1,1 +1,63 @@
+Algoritmo RegistroLEstudiante
+	Definir nombre Como Cadena
+    Definir edad, aux, resto Como Entero
+    Definir nota1, nota2, nota3 Como Real
+    Definir promedio Como Real
+    Definir edadBinario, edadHexadecimal Como Cadena
+	
+    Escribir "Ingrese su nombre:"
+    Leer nombre
+	
+    Escribir "Ingrese su edad:"
+    Leer edad
+	
+    Escribir "Ingrese la primera nota:"
+    Leer nota1
+    Escribir "Ingrese la segunda nota:"
+    Leer nota2
+    Escribir "Ingrese la tercera nota:"
+    Leer nota3
+	
+    promedio <- (nota1 + nota2 + nota3) / 3
+	
+    // --- Conversión a Binario ---
+    edadBinario <- ""
+    aux <- edad
+    Mientras aux > 0 Hacer
+        resto <- aux MOD 2
+        edadBinario <- ConvertirATexto(resto) + edadBinario
+        aux <- Trunc(aux / 2)
+    FinMientras
+    Si edadBinario = "" Entonces
+        edadBinario <- "0"
+    FinSi
+	
+    // --- Conversión a Hexadecimal ---
+    edadHexadecimal <- ""
+    aux <- edad
+    Mientras aux > 0 Hacer
+        resto <- aux MOD 16
+        Segun resto Hacer
+            10: edadHexadecimal <- "A" + edadHexadecimal
+            11: edadHexadecimal <- "B" + edadHexadecimal
+            12: edadHexadecimal <- "C" + edadHexadecimal
+            13: edadHexadecimal <- "D" + edadHexadecimal
+            14: edadHexadecimal <- "E" + edadHexadecimal
+            15: edadHexadecimal <- "F" + edadHexadecimal
+            De Otro Modo:
+                edadHexadecimal <- ConvertirATexto(resto) + edadHexadecimal
+        FinSegun
+        aux <- Trunc(aux / 16)
+    FinMientras
+    Si edadHexadecimal = "" Entonces
+        edadHexadecimal <- "0"
+    FinSi
+	
+    // --- Salida ---
+    Escribir "Nombre: ", nombre
+    Escribir "Edad (Decimal): ", edad
+    Escribir "Edad (Binario): ", edadBinario
+    Escribir "Edad (Hexadecimal): ", edadHexadecimal
+    Escribir "Promedio de notas: ", promedio
+FinAlgoritmo
 
