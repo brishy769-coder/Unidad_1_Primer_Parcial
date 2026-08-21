@@ -1,1 +1,199 @@
+ENUNCIADO 
 
+Enunciado: Para intercambiar dos variables necesitas una tercera variable auxiliar que guarde temporalmente uno de los valores. Sin ella sobrescribirá un valor antes de guardarlo. Este patrón es la base del ordenamiento de datos en cualquier sistema. 
+
+ 
+
+ANALISIS  
+
+Problema: intercambiar los valores de dos variables enteras. 
+
+Datos de entrada: dos números enteros (A=8, B=12). 
+
+Proceso: usar una variable auxiliar temp para guardar el valor de A, luego asignar B a A y finalmente temp a B. 
+
+Salida: mostrar los nuevos valores de A y B en pantalla. 
+
+
+ALGORITMO   
+
+ Inicio. 
+
+Asignar A = 8, B = 12. 
+
+Guardar el valor de A en temp. 
+
+Asignar el valor de B a A. 
+
+Asignar el valor de temp a B. 
+
+Mostrar A y B. 
+
+Fin. 
+
+ 
+
+3.1. FLUJOGRAMA  
+
+
+
+3.2. PSEUDOCODIGO  
+
+Algoritmo Ejercicio_Variables 
+
+Definir A, B , temp como entero 
+
+A <- 8  
+
+B <- 12  
+
+temp <- A  
+
+A <- B  
+
+B <- temp  
+
+Escribir "A: ", A  
+
+Escribir "B: ", B  
+
+FinAlgoritmo 
+
+
+PRUEBA DE ESCRITORIO 
+
+Paso 
+
+A 
+
+B 
+
+temp 
+
+Salida en pantalla 
+
+1 
+
+8 
+
+12 
+
+- 
+
+- 
+
+2 
+
+8 
+
+12 
+
+8 
+
+- 
+
+3 
+
+12 
+
+12 
+
+8 
+
+- 
+
+4 
+
+12 
+
+8 
+
+8 
+
+- 
+
+5 
+
+12 
+
+8 
+
+8 
+
+"A: 12" "B: 8" 
+
+
+ 
+
+CODIFICACION EN JAVA Y C++  
+
+JAVA 
+
+public class Intercambio_variables { 
+
+     
+
+ public static void main(String[] args) { 
+
+    int A = 8, B = 12; 
+
+    int temp; 
+
+    temp = A; 
+
+    A = B ; 
+
+    B = temp; 
+
+    System.out.println("A: " + A); 
+
+    System.out.println("B: " + B); 
+
+        } 
+
+} 
+
+ 
+
+ 
+
+C++ 
+
+ 
+
+#include <iostream> 
+
+using namespace std; 
+
+  
+
+int main() { 
+
+    int A = 8, B = 12; 
+
+    int temp; 
+
+  
+
+    // Intercambio de valores 
+
+    temp = A; 
+
+    A = B; 
+
+    B = temp; 
+
+  
+
+    cout << "A: " << A << endl; 
+
+    cout << "B: " << B << endl; 
+
+  
+
+    return 0; 
+
+} 
+
+
+ 
