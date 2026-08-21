@@ -4,7 +4,7 @@ Enunciado: Para intercambiar dos variables necesitas una tercera variable auxili
 
  
 
-ANALISIS  
+1. ANALISIS  
 
 Problema: intercambiar los valores de dos variables enteras. 
 
@@ -15,7 +15,7 @@ Proceso: usar una variable auxiliar temp para guardar el valor de A, luego asign
 Salida: mostrar los nuevos valores de A y B en pantalla. 
 
 
-ALGORITMO   
+2.ALGORITMO   
 
  Inicio. 
 
@@ -33,11 +33,12 @@ Fin.
 
  
 
-3.1. FLUJOGRAMA  
+2.1. FLUJOGRAMA  
+
+![Flujograma de Variables](Variables.png)
 
 
-
-3.2. PSEUDOCODIGO  
+2.2. PSEUDOCODIGO  
 
 Algoritmo Ejercicio_Variables 
 
@@ -60,7 +61,7 @@ Escribir "B: ", B
 FinAlgoritmo 
 
 
-PRUEBA DE ESCRITORIO 
+3. PRUEBA DE ESCRITORIO 
 
 | Paso | A  | B  | temp | Salida |
 |------|----|----|------|--------|
@@ -71,75 +72,5 @@ PRUEBA DE ESCRITORIO
 | 5    | 12 | 8  | 8    | "A: 12" "B: 8" |
 
  
-CODIFICACION EN JAVA Y C++  
-
-JAVA 
-
-public class Intercambio_variables { 
-
-     
-
- public static void main(String[] args) { 
-
-    int A = 8, B = 12; 
-
-    int temp; 
-
-    temp = A; 
-
-    A = B ; 
-
-    B = temp; 
-
-    System.out.println("A: " + A); 
-
-    System.out.println("B: " + B); 
-
-        } 
-
-} 
-
- 
-
- 
-
-C++ 
-
- 
-
-#include <iostream> 
-
-using namespace std; 
-
-  
-
-int main() { 
-
-    int A = 8, B = 12; 
-
-    int temp; 
-
-  
-
-    // Intercambio de valores 
-
-    temp = A; 
-
-    A = B; 
-
-    B = temp; 
-
-  
-
-    cout << "A: " << A << endl; 
-
-    cout << "B: " << B << endl; 
-
-  
-
-    return 0; 
-
-} 
 
 
- 
