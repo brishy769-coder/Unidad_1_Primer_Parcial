@@ -3,32 +3,25 @@ ENUNCIADO
 Enunciado: Para intercambiar dos variables necesitas una tercera variable auxiliar que guarde temporalmente uno de los valores.
 Sin ella sobrescribirá un valor antes de guardarlo. Este patrón es la base del ordenamiento de datos en cualquier sistema. 
 
- 
-
 1. ANALISIS  
 
 Problema: intercambiar los valores de dos variables enteras. 
-
 Datos de entrada: dos números enteros (A=8, B=12). 
-
 Proceso: usar una variable auxiliar temp para guardar el valor de A, luego asignar B a A y finalmente temp a B. 
-
 Salida: mostrar los nuevos valores de A y B en pantalla. 
-
 
 2.ALGORITMO   
 
  Inicio. 
 
-Asignar A = 8, B = 12. 
+  Asignar A = 8, B = 12. 
 
-Guardar el valor de A en temp. 
+  Guardar el valor de A en temp. 
 
-Asignar el valor de B a A. 
+  Asignar el valor de B a A. 
 
-Asignar el valor de temp a B. 
-
-Mostrar A y B. 
+  Asignar el valor de temp a B. 
+  Mostrar A y B. 
 
 Fin. 
 
@@ -36,7 +29,7 @@ Fin.
 
 2.1. FLUJOGRAMA  
 
-![Flujograma de intercambio de variables](Variables.png)
+![3 Pasos ](Variables.png)
 
 
 
@@ -44,33 +37,33 @@ Fin.
 
 Algoritmo Ejercicio_Variables 
 
-Definir A, B , temp como entero 
+    Definir A, B , temp como entero 
 
-A <- 8  
+    A <- 8  
 
-B <- 12  
+    B <- 12  
 
-temp <- A  
+    temp <- A  
 
-A <- B  
+    A <- B  
 
-B <- temp  
+    B <- temp  
 
-Escribir "A: ", A  
+    Escribir "A: ", A  
 
-Escribir "B: ", B  
+    Escribir "B: ", B  
 
 FinAlgoritmo 
 
 
 3. PRUEBA DE ESCRITORIO 
 
-| Paso | A  | B  | temp | Salida |
-|------|----|----|------|--------|
-| 1    | 8  | 12 | -    | -      |
-| 2    | 8  | 12 | 8    | -      |
-| 3    | 12 | 12 | 8    | -      |
-| 4    | 12 | 8  | 8    | -      |
+| Paso | A  | B  | temp | Salida         |
+|------|----|----|------|----------------|
+| 1    | 8  | 12 | -    | -              |
+| 2    | 8  | 12 | 8    | -              |
+| 3    | 12 | 12 | 8    | -              |
+| 4    | 12 | 8  | 8    | -              |
 | 5    | 12 | 8  | 8    | "A: 12" "B: 8" |
 
  
