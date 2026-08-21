@@ -29,8 +29,7 @@ Fin.
 
 2.1. FLUJOGRAMA  
 
-![Flujograma Variables](Variables.png)
-EjerciciosClase/Ejercicio_Variables.md/Variables.png
+![Ejercicio_Variables.md](Variables.png)
 
 2.2. PSEUDOCODIGO  
 
