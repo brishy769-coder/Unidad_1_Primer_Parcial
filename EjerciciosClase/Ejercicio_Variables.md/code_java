@@ -17,7 +17,6 @@ public class Intercambio_variables {
     System.out.println("B: " + B); 
 
         } 
-
 } 
 
  
