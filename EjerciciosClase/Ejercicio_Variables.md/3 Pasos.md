@@ -10,7 +10,7 @@ Datos de entrada: dos números enteros (A=8, B=12).
 Proceso: usar una variable auxiliar temp para guardar el valor de A, luego asignar B a A y finalmente temp a B. 
 Salida: mostrar los nuevos valores de A y B en pantalla. 
 
-2.ALGORITMO   
+ 2.ALGORITMO   
 
  Inicio. 
 
