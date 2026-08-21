@@ -1,0 +1,33 @@
+#include <iostream> 
+
+using namespace std; 
+
+  
+
+int main() { 
+
+    int A = 8, B = 12; 
+
+    int temp; 
+
+  
+
+    // Intercambio de valores 
+
+    temp = A; 
+
+    A = B; 
+
+    B = temp; 
+
+  
+
+    cout << "A: " << A << endl; 
+
+    cout << "B: " << B << endl; 
+
+  
+
+    return 0; 
+
+} 
