@@ -1,8 +1,9 @@
-Enunciado. 
+1. Enunciado. 
 
 El programa solicita al usuario ingresar un número y determina si es mayor a 100 o menor o igual a 100. 
 
-Análisis. 
+
+2. Análisis. 
 
 Entradas: 
 
@@ -24,7 +25,8 @@ Mensaje indicando si el número ingresado es mayor a 100 o menor/igual a 100.
 
  
 
-Algoritmo. 
+
+2. Algoritmo. 
 
 Inicio 
 
