@@ -41,6 +41,7 @@ Mostrar “El número es menor o igual a 100”
 Fin 
 
 3. Prueba de escritorio
+   
 | Número ingresado | Condición evaluada        | Resultado mostrado                      |
 |------------------|---------------------------|-----------------------------------------|
 | 150              | 150 > 100 → Verdadero     | El número es mayor a 100                |
