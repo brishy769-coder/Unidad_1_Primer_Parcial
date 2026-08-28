@@ -40,4 +40,31 @@ Mostrar “El número es menor o igual a 100”
 
 Fin 
 
+3. 
+
+Número ingresado 
+
+Condición evaluada 
+
+Resultado mostrado 
+
+150 
+
+150 > 100 → Verdadero 
+
+El número es mayor a 100 
+
+100 
+
+100 > 100 → Falso 
+
+El número es menor o igual a 100 
+
+75 
+
+75 > 100 → Falso 
+
+El número es menor o igual a 100 
+
+
 
