@@ -1,0 +1,15 @@
+package CLASES;
+public class TiposdeDatos {   
+    public static void main(String[] args) {
+        int numeroEntero = 10;
+        double numeroDecimal = 3.14;
+        char caracter = 'A';
+        boolean esVerdadero = true;
+
+        System.out.println("Número entero: " + numeroEntero);
+        System.out.println("Número decimal: " + numeroDecimal);
+        System.out.println("Carácter: " + caracter);
+        System.out.println("Valor booleano: " + esVerdadero);
+    }
+
+}
